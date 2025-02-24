@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.stockservice.demo.kafka&apos; to &apos;email-service/src/main/java/com.emailservice.demo&apos;&#x0D;&#x0A;- Original project: &apos;stock-service&apos;&#x0D;&#x0A;- Destination element: &apos;email-service/src/main/java/com.emailservice.demo&apos;&#x0D;&#x0A;- Original element: &apos;stock-service/src/main/java/com.stockservice.demo.kafka&apos;" description="Copy package" destination="=email-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.emailservice.demo" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.stockservice.demo.kafka" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1740207488526" version="1.0"/>
+</session>
