@@ -1,0 +1,5 @@
+package com.orderservice.demo.config;
+
+public class KafkaTopicConfig {
+
+}

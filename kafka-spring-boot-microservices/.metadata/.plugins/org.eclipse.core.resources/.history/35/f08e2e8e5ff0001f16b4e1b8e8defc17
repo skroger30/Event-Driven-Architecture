@@ -1,0 +1,18 @@
+package com.orderservice.demo.kafka;
+
+import org.apache.kafka.clients.admin.NewTopic;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Service;
+
+import com.basedomain.demo.dto.OrderEvent;
+
+@Service
+public class OrderProducer {
+
+	@Autowired
+	private NewTopic newTopic;
+	
+	@Autowired
+	private KafkaTemplate<String, OrderEvent> kafkaTemplate;
+}
